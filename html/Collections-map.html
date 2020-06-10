@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bellota:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap" rel="stylesheet">
+    <title>Hello world blog</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="categori">
+            <h2 class="title"><a href="../index.html"></a>Hello world!</h2>
+            <p class="subtitle">Techblog and lifelog of Park</p>
+            <h3>Java</h3>
+            <dl>
+                <li><a href="Collections-list.html">Collections-list</a></li>
+                <li><a href="Collections-map.html">Collections-map</a></li>
+            </dl>
+        </div>
+        <div class="content">
+            <article>
+                <h2>컬렉션 프레임워크</h2>
+                <h3>Map의 특징</h3>
+                <p>
+                    Map은 key와 value 데이터 쌍을 갖는 자료구조 입니다. map은 공통되는 key를
+                    가질 수 없습니다 (value는 다른 value와 겹쳐도 됨). 각각의 키는 하나의
+                    value만 가질 수 있습니다.
+                </p>
+                <table class="methods">
+                    <th>
+                    <td>반환값</td>
+                    <td>기능</td>
+                    </th>
+                    <tr>
+                        <td>clear()</td>
+                        <td>void</td>
+                        <td>모든 요소를 제거한다.</td>
+                    </tr>
+                    <tr>
+                        <td>containsKey(Object key)</td>
+                        <td>boolean</td>
+                        <td>인자의 key를 갖는다면 true를 반환한다.</td>
+                    </tr>
+                    <tr>
+                        <td>containsValue(Object value)</td>
+                        <td>boolean</td>
+                        <td>인자의 value가 하나 이상 있다면 true를 반환한다.</td>
+                    </tr>
+                    <tr>
+                        <td>entrySet()</td>
+                        <td>Set&lt;Map.Entry&lt;K,V&gt;&gt;</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>equals(Object o)</td>
+                        <td>boolean</td>
+                        <td>o 와 비교하여 같은 map이면 true 반환한다.</td>
+                    </tr>
+                    <tr>
+                        <td>get(Object key)</td>
+                        <td>V</td>
+                        <td>인자의 key에 해당하는 value를 반환한다.</td>
+                    </tr>
+                    <tr>
+                        <td>hashCode()</td>
+                        <td>int</td>
+                        <td>이 map의 hashcode 를 반환한다.</td>
+                    </tr>
+                    <tr>
+                        <td>isEmpty()</td>
+                        <td>boolean</td>
+                        <td>map이 비어있는지 확인한다.</td>
+                    </tr>
+                    <tr>
+                        <td>keySet()</td>
+                        <td>Set&lt;K&gt;</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </table>
+            </article>
+        </div>
+    </div>
+    <script src="../js/accordian.js"></script>
+</body>
+
+</html>

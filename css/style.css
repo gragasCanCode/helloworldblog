@@ -1,0 +1,60 @@
+@charset "utf-8";
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.container {
+  box-sizing: border-box;
+  min-height: 500px;
+  display: flex;
+
+}
+
+.categori {
+  font-family: 'Bellota', cursive, '굴림';
+  padding: 35px 20px;
+  width: 380px;
+  min-width: 200px;
+  background-color: #f5f5f5;
+}
+
+.title,
+.subtitle {
+  text-align: center;
+}
+
+.categori li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.content {
+  font-family: 'Nanum Gothic', sans-serif;
+  padding: 20px;
+}
+
+.content article {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 900px;
+}
+
+.methods {
+  width: 80%;
+  border-collapse: collapse;
+}
+
+.methods td,
+th {
+  padding: 5px;
+  border: 1px solid #949188;
+}
