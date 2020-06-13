@@ -62,3 +62,13 @@ th {
 p {
   line-height: 22px;
 }
+
+.description-box {
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+.description-box pre {
+  padding: 15px 0 15px 20px;
+  line-height: 25px;
+}
